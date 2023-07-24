@@ -9,19 +9,22 @@ const Survive = () => {
         <div>
             {/* the first one  */}
             <div>
-                <div>
-                    <div>
+                <div className='flex flex-row gap-8'>
+                    <div className='bg-btn text-black font-bold rounded-full w-8 h-8 flex items-center justify-center'>
                         1
                     </div>
-                    <div>
-                        <h1>Survive the night</h1>
-                        <p>Until Sunrise is a repeatable game that lasts 24 minutes,spanning 24 in-game hours. From enjoying your morning coffee at 7am, you must fend off waves of wolves,
-                            eventually monsters, until 7am the next morning
-                        </p>
-                    </div>
-                    <div>
-                        <img src={wolves} alt="" />
-                        <img src={circle} alt="" />
+                    <div className='flex flex-row'>
+
+                        <div className='w-[30vw]'>
+                            <h1 className='font-bold text-[50px]'>Survive the night</h1>
+                            <p className='text-text text-[16px]'>Until Sunrise is a repeatable game that lasts 24 minutes,spanning 24 in-game hours. From enjoying your morning coffee at 7am, you must fend off waves of wolves,
+                                eventually monsters, until 7am the next morning
+                            </p>
+                        </div>
+                        <div>
+                            <img src={wolves} alt="" />
+                            <img src={circle} alt="" />
+                        </div>
                     </div>
                 </div>
 

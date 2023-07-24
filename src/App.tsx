@@ -8,10 +8,11 @@ import Footer from "./components/Footer";
 import Character from "./components/Character";
 import Contact from "./components/Contact";
 import Features from "./components/features";
+import './App.css'
 
 export default function App() {
   return (
-    <div>
+    <div className="bg-black text-white">
       <Navbar/>
       <Survive/>
       <Features/>
