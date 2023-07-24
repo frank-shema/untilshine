@@ -9,12 +9,12 @@ import TwitterIcon from '../assets/icons/Group5.svg'
 const SocialMediaIcons = () => {
   return (
     <div className='text-red-400'>
- <img src={  FacebookIcon } alt="" />
+      <img src={FacebookIcon} alt="" />
       <img src={YouTubeIcon} alt="" />
-      <img src={GoogleIcon } alt="" />
+      <img src={GoogleIcon} alt="" />
       <img src={LinkedInIcon
-} alt="" />     
-  <img src={TwitterIcon} alt="" />
+      } alt="" />
+      <img src={TwitterIcon} alt="" />
     </div>
   );
 };

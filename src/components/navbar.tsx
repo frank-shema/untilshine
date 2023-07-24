@@ -11,10 +11,10 @@ export default function Navbar() {
 
       <div>
         <nav>
-            <p><a href="">Home</a></p>
-            <p><a href="">Community</a></p>
-            <p><a href="">Leatherboard</a></p>
-            <p><a href="">Contact</a></p>
+          <p><a href="">Home</a></p>
+          <p><a href="">Community</a></p>
+          <p><a href="">Leatherboard</a></p>
+          <p><a href="">Contact</a></p>
         </nav>
       </div>
 
