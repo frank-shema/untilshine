@@ -19,8 +19,8 @@ export default function Navbar() {
       </div>
 
       <div>
-        <button>signup</button>
-        <button>login</button>
+        <button><a href="">signup</a></button>
+        <button><a href="">login</a></button>
       </div>
     </div>
   );
