@@ -1,6 +1,6 @@
 // import React from 'react';
 import wolves from '../assets/main/Rectangle 6.png'
-import circle from '../assets/elipses/Ellipse 2.svg'
+// import circle from '../assets/elipses/Ellipse 2.svg'
 import { SocialMediaIcons1 } from './icons';
 import killers from '../assets/main/Rectangle 7.png'
 
