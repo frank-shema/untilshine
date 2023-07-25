@@ -1,15 +1,15 @@
 // import React from 'react';
 import wolves from '../assets/main/Rectangle 6.png'
-// import circle from '../assets/elipses/Ellipse 2.svg'
+import circle from '../assets/elipses/Ellipse 2.svg'
 import { SocialMediaIcons1 } from './icons';
 import killers from '../assets/main/Rectangle 7.png'
 
 const Survive = () => {
 	return (
-		<div className='mt-40 w-full  px-10 md:px-16 lg:px-32'>
+		<div className='mt-16 md:mt-20 lg:mt-40 w-full  px-10 md:px-16 lg:px-32'>
 			<div className='flex flex-row justify-between gap-5 items-baseline my-10'>
-				<div className='w-[85vw] flex flex-row items-center'>
-					<div className='w-full md:w-[40%] flex flex-row gap-5'>
+				<div className='w-[85vw] flex  flex-col  flex-col-reverse md:flex-row items-center'>
+					<div className='w-full md:w-[50%] lg:w-[40%] flex flex-row gap-5'>
 						<div className='p-1 bg-[#FFDB00] rounded-full text-black w-fit px-2 h-fit'>
 							1
 						</div>
@@ -20,7 +20,7 @@ const Survive = () => {
 							</p>
 						</div>
 					</div>
-					<div className='hidden md:block'>
+					<div className=''>
 						<img src={wolves} alt="" />
 						{/* <img src={circle} alt="" /> */}
 					</div>
@@ -28,8 +28,8 @@ const Survive = () => {
 				<SocialMediaIcons1 />
 			</div>
 			<div className='flex flex-row gap-8 my-10 '>
-				<div className='flex flex-row'>
-					<div className='hidden md:block'>
+				<div className='flex flex-col gap-3 md:flex-row'>
+					<div className=''>
 						<img src={killers} alt="" />
 						{/* <img src={circle} alt="" /> */}
 					</div>

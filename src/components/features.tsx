@@ -15,7 +15,7 @@ export default function Features() {
 				<p className="text-[10px] md:text-[15px] lg:text-[20px] font-medium  text-[#7F7F7F]">Explore or awesome features</p>
 			</div>
 
-			<div className='grid grid-cols-3  w-full gap-10'>
+			<div className='grid grid-rows-3 md:grid-cols-3 md:grid-rows-1  w-full gap-10'>
 				<div className='h-full'>
 					<a href=''><img src={killer} alt="" className='w-full' /></a>
 					<div className='bg-black rounded-md w-full p-5'>
