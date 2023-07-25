@@ -6,16 +6,27 @@ import LinkedInIcon from '../assets/icons/Group4.svg'
 import TwitterIcon from '../assets/icons/Group5.svg'
 
 
-const SocialMediaIcons = () => {
+export const SocialMediaIcons1 = () => {
   return (
-    <div className='text-red-400'>
-     <a href=""> <img src={FacebookIcon} alt="" /></a>
-     <a href=""> <img src={YouTubeIcon} alt="" /></a>
-     <a href=""> <img src={GoogleIcon} alt="" /></a>
-     <a href=""> <img src={LinkedInIcon} alt="" /></a>
-    <a href="">  <img src={TwitterIcon} alt="" /></a>
+    <div className='flex flex-col gap-1'>
+      <a href=""> <img src={FacebookIcon} alt="" /></a>
+      <a href=""> <img src={YouTubeIcon} alt="" /></a>
+      <a href=""> <img src={GoogleIcon} alt="" /></a>
+      <a href=""> <img src={LinkedInIcon} alt="" /></a>
+      <a href="">  <img src={TwitterIcon} alt="" /></a>
+    </div>
+  );
+};
+export const SocialMediaIcons2 = () => {
+  return (
+    <div className='flex flex-row gap-1'>
+      <a href=""> <img src={FacebookIcon} alt="" /></a>
+      <a href=""> <img src={YouTubeIcon} alt="" /></a>
+      <a href=""> <img src={GoogleIcon} alt="" /></a>
+      <a href=""> <img src={LinkedInIcon} alt="" /></a>
+      <a href="">  <img src={TwitterIcon} alt="" /></a>
     </div>
   );
 };
 
-export default SocialMediaIcons;
+

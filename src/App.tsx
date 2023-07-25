@@ -12,7 +12,7 @@ import './App.css'
 
 export default function App() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-[#0D0D0D] text-white w-full overflow-hidden">
       <Navbar/>
       <Survive/>
       <Features/>
