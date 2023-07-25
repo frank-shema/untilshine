@@ -1,19 +1,19 @@
 // import React from 'react';
 import ring from '../assets/about/Rectangle 18.svg'
-import people from '../assets/about/Rectangle 19.svg'
+import people from '../assets/about/inside.jpg'
 
 export default function About() {
 	return (
-		<div className="w-full  px-7 md:px-14 lg:px-28 my-10">
+		<div className="w-full  px-7 md:px-14 lg:px-28 my-10 ">
 			<div>
-				<h1 className='text-[20px] md:text-[30px] lg:text-[44px] font-bold text-shadow '>About us</h1>
+				<h1 className='text-[20px] md:text-[30px] lg:text-[44px] font-bold text-shadow about-us'>About us</h1>
 				<p className="text-sm md:text-base lg:text-[20px] font-medium  text-[#7F7F7F]">More about our company</p>
 			</div>
 
 			<div className="flex flex-row gap-5 my-3 items-center">
 				<div className="relative w-[50%] hidden md:block">
 					<img src={ring} alt="" className='w-[85%]' />
-					<img src={people} alt="" className='absolute top-[30%] h-[50%] -right-5' />
+					<img src={people} alt="" className='absolute top-[30%] h-[50%] -right-5 rounded-md  border' />
 				</div>
 				<div className="w-full md:w-[50%] text-white text-[20px] pl-5">
 					<div >

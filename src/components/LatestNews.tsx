@@ -6,7 +6,7 @@ import dvlptPhase from '../assets/latest/Rectangle 17.svg'
 
 export default function LatestNews() {
 	return (
-		<div className="px-5 md:px-14 lg:px-28 my-10 w-full">
+		<div className="px-5 md:px-14 lg:px-28 my-10 w-full ">
 			<div className="text-left">
 				<h1 className='text-[20px] md:text-[30px] lg:text-[44px] font-bold capitalize text-shadow '>latest news</h1>
 				<p className="text-[20px] font-medium  text-[#7F7F7F]">Some of our new blogs</p>
