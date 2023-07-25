@@ -15,7 +15,7 @@ export default function About() {
 					<img src={ring} alt="" className='w-[85%]' />
 					<img src={people} alt="" className='absolute top-[30%] h-[50%] -right-5 rounded-md  border' />
 				</div>
-				<div className="w-full md:w-[50%] text-white text-[20px] pl-5 flex flex-col gap-4">
+				<div className="w-full md:w-[50%] text-white text-[20px] pl-5 flex flex-col gap-4 mt-[5vh]">
 					<div className='flex flex-col gap-1'>
 						<h1 className="text-[#FFDB00] font-medium text-sm lg:text-base">Us</h1>
 						<p className='text-[10px] lg:text-sm'>we are passionate about gaming and dedicated to creating extraordinary experiences for players all around the world. Founded in [Year of Establishment], our company has emerged as a leading force in the gaming industry, driven by innovation, creativity, and an unwavering commitment to delivering top-notch gaming content.</p>
