@@ -6,9 +6,9 @@ import killers from '../assets/main/Rectangle 7.png'
 
 const Survive = () => {
 	return (
-		<div className='mt-16 md:mt-20 lg:mt-40 w-full  px-10 md:px-16 lg:px-32'>
+		<div className='mt-18 py-[20px] md:mt-20 lg:mt-40 w-full  px-10 md:px-16 lg:px-32'>
 			<div className='flex flex-row justify-between gap-5 items-baseline my-10'>
-				<div className='w-[85vw] flex  flex-col  flex-col-reverse md:flex-row items-center'>
+				<div className='w-[85vw] flex  flex-col-reverse md:flex-row items-center'>
 					<div className='w-full md:w-[50%] lg:w-[40%] flex flex-row gap-5'>
 						<div className='p-1 bg-[#FFDB00] rounded-full text-black w-fit px-2 h-fit'>
 							1
@@ -20,18 +20,18 @@ const Survive = () => {
 							</p>
 						</div>
 					</div>
-					<div className=''>
-						<img src={wolves} alt="" />
-						{/* <img src={circle} alt="" /> */}
+					<div className='relative'>
+						<img src={wolves} alt="" className='w-full h-full'/>
+						<img src={circle} alt="" className='hidden lg:block rounded-full absolute -top-20 backdrop-blur-md w-[10vw] right-5'/>
 					</div>
 				</div>
 				<SocialMediaIcons1 />
 			</div>
 			<div className='flex flex-row gap-8 my-10 '>
 				<div className='flex flex-col gap-3 md:flex-row'>
-					<div className=''>
-						<img src={killers} alt="" />
-						{/* <img src={circle} alt="" /> */}
+					<div className='relative mb-20'>
+						<img src={killers} alt="w-full h-full" />
+						<img src={circle} alt="" className='hidden lg:block rounded-full absolute -bottom-16 w-[10vw] left-[30%] backdrop-blur-md'/>
 					</div>
 					<div className='flex flex-row gap-3 w-full md:w-[50%]'>
 						<div className='p-1 bg-[#FFDB00] rounded-full text-black w-fit px-2 h-fit'>
