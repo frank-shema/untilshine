@@ -52,13 +52,7 @@ border-right-color: black;
   }
 }
 
-/* Apply the animation to the specified elements */
-.survive {
-  animation: slideInFromLeft 5s ease;
-}
-.character, .about-us-in{
-  animation: slideInFromright 3s ease-in-out;
-}
+/* Define the keyframes for the slideInFromright animation */
 @keyframes slideInFromright {
   0% {
     transform: translateX(100%);
@@ -67,8 +61,35 @@ border-right-color: black;
     transform: translateX(0);
   }
 }
-.survived{
+
+/* Apply the animation to the specified elements with class names */
+.slide-in {
+  opacity: 0;
+}
+
+.slide-in.show {
+  opacity: 1;
+}
+
+
+
+.survive.slide-in {
+  animation: slideInFromLeft 5s ease;
+}
+
+
+.about-us-in.slide-in {
+  animation: slideInFromright 12s ease-in-out;
+}
+
+.character.slide-in{
+  animation: slideInFromright 8s ease-in-out;
+  
+}
+
+.survived.slide-in {
   animation: slideInFromright 5s ease;
 }
 
+/* Rest of the CSS styles */
 

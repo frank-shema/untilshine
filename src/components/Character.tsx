@@ -5,7 +5,7 @@ import laura from '../assets/characters/Laura-2-removebg-preview 1.svg'
 export default function Character() {
     return (
         <div className='w-full px-10 md:px-16 lg:px-32 my-10'>
-            <div className='mb-[30px] character'>
+            <div className='mb-[30px] character slide-in'>
                 <h1 className='text-[20px] md:text-[30px] lg:text-[44px] font-bold '>Our characters</h1>
                 <p className="text-[14px] font-medium py-4 text-[#f8f8f8] w-full lg:w-[50%]">Each time you win the game (at least one person survives) you unlock a profile icon, so you can customize your leaderboard appearance, or show off how far you’ve gone. 100 pages of lore are also available to pickup in-game, explaining the story of this fantasy dystopic world.</p>
             </div>
