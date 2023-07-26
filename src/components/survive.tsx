@@ -7,7 +7,7 @@ const Survive = () => {
         <div className='mt-18 py-[20px] md:mt-20 lg:mt-40 w-full  px-10 md:px-16 lg:px-32'>
             <div className='flex flex-row justify-between gap-5 items-baseline my-10'>
                 <div className='w-[85vw] flex  flex-col-reverse md:flex-row items-center'>
-                    <div className='w-full md:w-[50%] lg:w-[80%] flex flex-row gap-5'>
+                    <div className='w-full md:w-[50%] lg:w-[80%] flex flex-row gap-5 survive'>
                         <div className='p-1  bg-[#FFDB00] rounded-[50%] text-black w-fit px-3 h-fit'>
                             1
                         </div>
@@ -31,7 +31,7 @@ const Survive = () => {
                         <img src={killers}
                             alt="w-full h-full"/>
                     </div>
-                    <div className='flex flex-row gap-3 w-full items-center md:w-[80%]'>
+                    <div className='flex flex-row gap-3 w-full items-center md:w-[80%] survived'>
                         <div className='p-1 bg-[#FFDB00] rounded-[50%] text-black w-fit px-3 h-fit'>
                             2
                         </div>

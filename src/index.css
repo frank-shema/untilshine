@@ -41,3 +41,34 @@ border-right-color: black;
 
 
 
+
+/* Define the keyframes for the animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the specified elements */
+.survive {
+  animation: slideInFromLeft 5s ease;
+}
+.character, .about-us-in{
+  animation: slideInFromright 3s ease-in-out;
+}
+@keyframes slideInFromright {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.survived{
+  animation: slideInFromright 5s ease;
+}
+
+
