@@ -1,7 +1,8 @@
 import wolves from '../assets/main/Rectangle 6.png'
 import {SocialMediaIcons1} from './icons';
 import killers from '../assets/main/Rectangle 7.png'
-// import circle from '../assets/elipses/Ellipse 2.svg'
+import circle from '../assets/elipses/Ellipse 2.svg'
+import '../App.css'
 
 const Survive = () => {
     return (
@@ -22,7 +23,7 @@ const Survive = () => {
                         <img src={wolves}
                             alt=""
                             className='w-full h-full'/>
-                            
+                            <img src={circle} alt="" className='hidden lg:block rounded-full absolute  backdrop-blur-md w-[10vw]  animated-circle-one' />
                            
                     </div>
                 </div>
@@ -33,6 +34,7 @@ const Survive = () => {
                     <div className='relative mb-20'>
                         <img src={killers}
                             alt="w-full h-full"/>
+                            <img src={circle} alt="" className='hidden lg:block rounded-full absolute  w-[10vw]  backdrop-blur-md animated-circle-two' />
                     </div>
                     <div className='flex flex-row gap-3 w-full items-center md:w-[80%] survived slide-in'>
                         <div className='p-1 bg-[#FFDB00] rounded-[50%] text-black w-fit px-3 h-fit'>
