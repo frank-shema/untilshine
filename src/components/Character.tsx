@@ -32,7 +32,7 @@ export default function Character() {
                 <div className='border-[3px] border-[#FFDB00] rounded-lg p-3 h-full'>
                     <img src={laura}
                         alt=""
-                        className="w-[50%] md:w-[55%] lg:h-[60%] mx-auto"/>
+                        className="w-[50%] md:w-[55%] lg:h-[55%] mx-auto"/>
                     <div className='flex flex-col gap-4 px-4 mt-[10%]'>
                         <h1 className="text-xs text-[18px] lg:text-[30px] font-bold">Laura</h1>
                         <p className="text-[9px] md:text-sm text-[#b1b1b1] py-4 font-semibold">Your fancy city wife loved you enough to stay with you, away from the comfort and services of Ultrapolis. Armed with her shotgun, she will do her best to keep your children safe, lest you allow a fowl creature to get inside,

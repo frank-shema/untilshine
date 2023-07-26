@@ -12,13 +12,15 @@ export default function App() {
   return (
     <div className="bg-[#0D0D0D] text-white w-full overflow-hidden">
       <Navbar/>
-      <Survive/>
+     <div className="mx-[10vw] apart">
+     <Survive/>
       <Features/>
       <Character/>
       <BothAboutAndLatest/>
       <Reviews/>
       <Contact/>
       <Footer/>
+     </div>
     </div>
   );
 }

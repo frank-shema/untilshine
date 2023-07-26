@@ -8,7 +8,7 @@ const Survive = () => {
             <div className='flex flex-row justify-between gap-5 items-baseline my-10'>
                 <div className='w-[85vw] flex  flex-col-reverse md:flex-row items-center'>
                     <div className='w-full md:w-[50%] lg:w-[80%] flex flex-row gap-5'>
-                        <div className='p-1 bg-[#FFDB00] rounded-full text-black w-fit px-2 h-fit'>
+                        <div className='p-1  bg-[#FFDB00] rounded-[50%] text-black w-fit px-3 h-fit'>
                             1
                         </div>
                         <div>
@@ -32,7 +32,7 @@ const Survive = () => {
                             alt="w-full h-full"/>
                     </div>
                     <div className='flex flex-row gap-3 w-full items-center md:w-[80%]'>
-                        <div className='p-1 bg-[#FFDB00] rounded-full text-black w-fit px-2 h-fit'>
+                        <div className='p-1 bg-[#FFDB00] rounded-[50%] text-black w-fit px-3 h-fit'>
                             2
                         </div>
                         <div>

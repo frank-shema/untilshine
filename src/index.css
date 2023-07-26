@@ -29,3 +29,15 @@ border-bottom: 15px black solid;
 border-radius: 24px;
 border-right-color: black;
 }
+
+@media screen and (min-width: 1023px) and (max-width: 1470px) {
+  .apart {
+    /* Reset margin on the x-axis to remove the margin */
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+
+

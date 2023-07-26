@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
             <img src={ringed}
                 alt=""
-                className="absolute bottom-0 right-10 hidden md:block"/>
+                className="footerImage absolute bottom-0 right-10 hidden md:block"/>
         </div>
     );
 }
