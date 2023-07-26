@@ -1,46 +1,35 @@
 @keyframes moveDiagonally {
     0% {
       top: -4rem;
-      right: 1.25rem;
+      right:3rem;
     }
   
     100% {
       top: -4rem;
-      right: 1.25rem;
-      transform: translate(-600px, 300px);
+      right: 3rem;
+      transform: translate(-420px, 242px);
     }
   }
   
   @keyframes moveDiagona {
     0% {
       bottom: -4rem;
-      left: 30%;
-    }
-  
-    50% {
-      bottom: -4rem;
-      left: 30%;
-      transform: translate(400px, -300px);
-    }
-  
-    75% {
-      bottom: -4rem;
-      left: 30%;
-      transform: translate(-100px, -300px);
+      left: 10%;
     }
   
     100% {
       bottom: -4rem;
-      left: 30%;
-      transform: translate(400px, 0px);
+      left: 10%;
+      transform: translate(370px, -230px);
     }
+  
   }
   
   
   .animated-circle-one {
-    animation: moveDiagonally 20s alternate infinite;
+    animation: moveDiagonally 7.5s alternate infinite;
   }
   
   .animated-circle-two {
-    animation: moveDiagona 20s alternate infinite;
+    animation: moveDiagona 6s alternate infinite;
   }
