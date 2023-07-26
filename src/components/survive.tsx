@@ -1,6 +1,7 @@
 import wolves from '../assets/main/Rectangle 6.png'
 import {SocialMediaIcons1} from './icons';
 import killers from '../assets/main/Rectangle 7.png'
+// import circle from '../assets/elipses/Ellipse 2.svg'
 
 const Survive = () => {
     return (
@@ -21,6 +22,8 @@ const Survive = () => {
                         <img src={wolves}
                             alt=""
                             className='w-full h-full'/>
+                            
+                           
                     </div>
                 </div>
                 <SocialMediaIcons1/>

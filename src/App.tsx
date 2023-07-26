@@ -13,7 +13,7 @@ import './index.css'
 
 export default function App() {
   
-   useEffect(() => {
+  useEffect(() => {
     // Intersection Observer configuration
     const options = {
       root: null,
@@ -22,7 +22,10 @@ export default function App() {
     };
 
     // Callback function for Intersection Observer
-    const handleIntersection = (entries, observer) => {
+    const handleIntersection: IntersectionObserverCallback = (
+      entries: IntersectionObserverEntry[],
+      observer: IntersectionObserver
+    ) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('show');
