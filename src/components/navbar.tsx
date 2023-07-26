@@ -36,15 +36,15 @@ export default function Navbar() {
 						<p><a href="">Community</a></p>
 						<p><a href="">Leatherboard</a></p>
 						<p><a href="">Contact</a></p>
-						<button className='px-10 py-2  border-white border-[1px] hover:text-black hover:border-none rounded-[24px] capitalize hover:bg-white text-sm lg:text-base'><a href="">signup</a></button>
-						<button className='bg-btn rounded-[24px] text-black px-10  py-2 capitalize hover:bg-black hover:border-btn hover:border-[1px] hover:text-btn text-sm lg:text-base'><a href="">login</a></button>
+						<button className='px-10 py-2  border-white border-[1px]  rounded-[24px] capitalize  text-sm lg:text-base'><a href="">signup</a></button>
+						<button className='bg-btn rounded-[24px] text-black px-10 py-2 capitalize  text-sm lg:text-base'><a href="">login</a></button>
 					</nav>
 				</div>
 			)}
 
 			<div className='flex-row gap-5 hidden md:flex'>
-				<button className='px-10 py-2  border-white border-[1px] hover:bg-white hover:text-black hover:border-none rounded-[24px] capitalize  text-sm lg:text-base'><a href="">signup</a></button>
-				<button className='bg-btn rounded-[24px] hover:bg-black hover:border-btn hover:border-[1px] hover:text-btn text-black px-10 py-2 capitalize  text-sm lg:text-base'><a href="">login</a></button>
+				<button className='px-10 py-2  border-white border-[1px]  rounded-[24px] capitalize  text-sm lg:text-base'><a href="">signup</a></button>
+				<button className='bg-btn rounded-[24px] text-black px-10 py-2 capitalize  text-sm lg:text-base'><a href="">login</a></button>
 			</div>
 		</div >
 	);

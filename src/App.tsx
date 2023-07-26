@@ -1,9 +1,6 @@
-// import React from 'react';
 import Navbar from "./components/navbar";
 import Survive from "./components/survive";
-// import About from "./components/About";
 import Reviews from "./components/Reviews";
-// import LatestNews from "./components/LatestNews";
 import Footer from "./components/Footer";
 import Character from "./components/Character";
 import Contact from "./components/Contact";
@@ -18,7 +15,7 @@ export default function App() {
       <Survive/>
       <Features/>
       <Character/>
-     <BothAboutAndLatest/>
+      <BothAboutAndLatest/>
       <Reviews/>
       <Contact/>
       <Footer/>
